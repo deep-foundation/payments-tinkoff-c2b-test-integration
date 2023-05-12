@@ -1,0 +1,30 @@
+{
+  "name": "@deep-foundation/payments-tinkoff-c2b-test-integration",
+  "keywords": [
+    "deep-package",
+    "deep-package-integration"
+  ],
+  "version": "0.2.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deep-foundation/payments-tinkoff-c2b-test-integration"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "/dist"
+    ],
+  "dependencies": {
+    "delay": "^5.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@deep-foundation/deeplinks": "^0.0.146"
+  }
+}
