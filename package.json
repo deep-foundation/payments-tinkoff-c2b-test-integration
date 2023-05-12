@@ -4,7 +4,7 @@
     "deep-package",
     "deep-package-integration"
   ],
-  "version": "0.2.5",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/deep-foundation/payments-tinkoff-c2b-test-integration"
