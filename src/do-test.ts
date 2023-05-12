@@ -1,10 +1,9 @@
-import { insertPort,InsertPortArg } from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-port';
-import { insertRoute,InsertRouteArg } from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-route';
-import { insertSum, InsertSumArg} from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-sum';
-import { insertTerminalKey, InsertTerminalKeyArg } from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-terminal-key';
-import { insertTerminalPassword,InsertTerminalPasswordArg  } from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-terminal-password';
-import { DeepClient } from '@deep-foundation/deeplinks/imports/client';
-import { insertDoTest, InsertDoTestArg} from '@deep-foundation/payments-tinkoff-c2b-test/src/insert-do-test';
+import { insertPort,InsertPortArg } from './insert-port';
+import { insertRoute,InsertRouteArg } from './insert-route';
+import { insertSum, InsertSumArg} from './insert-sum';
+import { insertTerminalKey, InsertTerminalKeyArg } from './insert-terminal-key';
+import { insertTerminalPassword,InsertTerminalPasswordArg  } from './insert-terminal-password';
+import { insertDoTest, InsertDoTestArg} from './insert-do-test';
 import assert from 'assert';
 import delay from 'delay';
 
