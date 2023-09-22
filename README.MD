@@ -1,3 +1,6 @@
+# This package is deprecated!
+Integration library is moved to @deep-foundation/payments-tinkoff-c2b-test, use it instead
+
 # Goal
 
 Provide integration for [`@deep-foundation/payments-tinkoff-c2b-test`](https://www.npmjs.com/package/@deep-foundation/payments-tinkoff-c2b-test) package
